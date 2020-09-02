@@ -1,2 +1,4 @@
 import data from './data/pokemon/pokemon.js';
-console.log(data);
+// import data from './data/rickandmorty/rickandmorty.js';
+
+console.log(data.pokemon);
