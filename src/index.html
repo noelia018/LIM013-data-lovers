@@ -4,22 +4,31 @@
     <meta charset="utf-8">
     <title>Data Lovers</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="imagenesdata/pokemon.png"/>
   </head>
   <body>
-    <main>
-      <div class="container-fluid sticky-top fondo-color py-4">
-       
-          <div class="col">
     
+    <center>
+    <img src="imagenesdata/header.jpg">
+    </center>
+    
+
+    
+       
+      <div id="header">
+        
+
+        <nav>
+       
       <select class="order" name="order" id="orderPokemon">
       <option value="Selector2"> Ordenar  </option>
       <option sortby="name" orderby="asc"> A - Z</option>
         <option sortby="name" orderby="des"> Z - A</option>
      </select>
-     
-          </div>
+    
+          
   
-          <div class="col">
+         
               <select class="filterByType" name="pokemonTypes" id="filterType">
                 <option value="selection">   Tipo </option>
                 <option value="Bug">Bug</option>
@@ -39,26 +48,32 @@
                 <option value="Water">Water</option>
               </select>
             
-          </div>
-  
-          <div class="col">
-           
+          
+         
               <select class="filterByEgg" name="pokemonEggs" id="filterEgg">
                 <option value="Selector3"> Caramelos </option>
                 <option value="50">50</option>
                 <option value="100">100</option>
                 <option value="200">200 </option>
               </select>
-            
+        </nav>
+
+        <div class="container">
+          <center>
+          <div class="row " id="container-result">
           </div>
-  
-        
+          <div class="row " id="root">
+          </div>
+        </center>
         </div>
-      </div>
+      <
+          </div>
+        
+        
+    
   
-      
-  
-    </main>
+    
+
     
     <script src="main.js" type="module"></script>
   </body>

@@ -1,0 +1,30 @@
+
+
+
+* {
+    margin:0px;
+    padding:0px;
+}
+
+
+
+nav select {
+    background-color: black;
+    color:#fff;
+    padding:10px 20px;
+}
+
+nav {
+display:flex;
+justify-content:center;
+
+
+}
+
+.card {
+    background-color: #6497b1;
+    text-align: center;
+  }
+
+  
+  
